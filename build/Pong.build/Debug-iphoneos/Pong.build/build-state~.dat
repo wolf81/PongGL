@@ -1,0 +1,341 @@
+TPong
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.h
+c000000004D2D66AB000000000000014E
+t1294821035
+s334
+i<Foundation/Foundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.m
+c000000004D2D669400000000000000D1
+t1294821012
+s209
+i"Ball.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.h
+c000000004D2D6E9000000000000001ED
+t1294823056
+s493
+i<Foundation/Foundation.h>
+i"Paddle.h"
+i"Ball.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.m
+c000000004D2DE4DC00000000000002F8
+t1294853340
+s760
+i"Board.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.h
+c000000004D2D81BB00000000000002E4
+t1294827963
+s740
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+i"Board.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+c000000004D2DE5F9000000000000119A
+t1294853625
+s4506
+i"OGLRenderer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.h
+c000000004D2897A50000000000000144
+t1294505893
+s324
+i<UIKit/UIKit.h>
+i"OGLRenderer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+c000000004D2DE3CD0000000000000BE5
+t1294853069
+s3045
+i<OpenGLES/EAGLDrawable.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.h
+c000000004D2DE1750000000000000227
+t1294852469
+s551
+i<Foundation/Foundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.m
+c000000004D2DE2D00000000000000327
+t1294852816
+s807
+i"Paddle.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.h
+c000000004D28828C000000000000016A
+t1294500492
+s362
+i<UIKit/UIKit.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+c000000004D2D6CD80000000000000BD1
+t1294822616
+s3025
+i"PongAppDelegate.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib
+c000000004D28828C00000000000020F9
+t1294500492
+s8441
+
+N/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch
+c000000004D28828C00000000000000B1
+t1294500492
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/MainWindow.nib
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/PkgInfo
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Ball.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Board.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Paddle.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Ball.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Board.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Paddle.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/main.m
+c000000004D28828C000000000000016A
+t1294500492
+s362
+i<UIKit/UIKit.h>
+
+NPong-Info.plist
+c000000004D28828C000000000000038D
+t1294500492
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316547871#316547871#0(96"[BEROR]CodeSign error: code signing is required for product type 'Application' in SDK 'iOS 4.2'1(4@88"CodeSign error: code signing is required for product type 'Application' in SDK 'iOS 4.2'316547871#18446744073709551615#0#0(1@0"0(0#1#0"8646848768#0"0#
+
+CCompileXIB "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib"
+r0
+
+CCreateUniversalBinary "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong" normal "armv6 armv7"
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Ball.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Board.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Paddle.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Ball.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Board.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Paddle.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CGenerateDSYMFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong"
+r0
+
+CLd "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong" normal armv6
+r0
+
+CLd "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist" Pong-Info.plist
+r0
+
+CTouch "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"
+r0
+

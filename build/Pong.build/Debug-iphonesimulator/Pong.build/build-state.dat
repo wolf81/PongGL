@@ -1,0 +1,1314 @@
+TPong
+v7
+r0
+t321231577.869988
+cCheck dependencies
+cProcessInfoPlistFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist" Pong-Info.plist
+cCompileXIB "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/Pong.app/floor_tiles_texture.png floor_tiles_texture.png
+cCpResource build/Debug-iphonesimulator/Pong.app/wall_tiles_texture.png wall_tiles_texture.png
+cCpResource build/Debug-iphonesimulator/Pong.app/green.png green.png
+cCpResource build/Debug-iphonesimulator/Pong.app/p1.png p1.png
+cCpResource build/Debug-iphonesimulator/Pong.app/p2.png p2.png
+cCpResource build/Debug-iphonesimulator/Pong.app/beep.caf beep.caf
+cCpResource build/Debug-iphonesimulator/Pong.app/click1.caf click1.caf
+cCpResource build/Debug-iphonesimulator/Pong.app/click2.caf click2.caf
+cCpResource build/Debug-iphonesimulator/Pong.app/click3.caf click3.caf
+cCpResource build/Debug-iphonesimulator/Pong.app/click4.caf click4.caf
+cCpResource build/Debug-iphonesimulator/Pong.app/zabumba.mp3 zabumba.mp3
+cProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLTexture.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OALCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MusicPlayer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong" normal i386
+cGenerateDSYMFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app.dSYM" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong"
+cTouch "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC1219F0000000000000AB3
+t1287725471
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC121DB00000000000004FE
+t1287725531
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC1226100000000000064FD
+t1287725665
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC122610000000000001F45
+t1287725665
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/objc/runtime.h
+c000000004CB9357000000000000053F9
+t1287206256
+s21497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A1198340000000000000644
+t1242667060
+s1604
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libobjc.A.dylib
+c000000004CB93576000000000011DB30
+t1287206262
+s1170224
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.h
+c000000004D50897B0000000000000184
+t1297123707
+s388
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m
+c000000004D508AE00000000000000651
+t1297124064
+s1617
+i"AudioPlayer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.h
+c000000004D612E6B00000000000000FF
+t1298214507
+s255
+i<UIKit/UIKit.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m
+c000000004D613D760000000000000BAF
+t1298218358
+s2991
+i"MenuView.h"
+i"Pong.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.h
+c000000004D603F9400000000000001E1
+t1298153364
+s481
+i<UIKit/UIKit.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.m
+c000000004D604E420000000000000D48
+t1298157122
+s3400
+i"MenuViewController.h"
+i"Pong.h"
+i<CoreGraphics/CoreGraphics.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.h
+c000000004D509504000000000000017F
+t1297126660
+s383
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m
+c000000004D603AE70000000000000832
+t1298152167
+s2098
+i"MusicPlayer.h"
+i"mplayer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayerC.h
+c000000004D5091FA00000000000000B1
+t1297125882
+s177
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c
+c000000004D51257200000000000016FC
+t1297163634
+s5884
+i"OALCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.h
+c000000004D4F42FB00000000000003C9
+t1297040123
+s969
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+c000000004D4AD85F0000000000000453
+t1296750687
+s1107
+i"OGLCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.h
+c000000004D49ADD90000000000000332
+t1296674265
+s818
+i<CoreFoundation/CoreFoundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<OpenGLES/ES1/gl.h>
+i<stdbool.h>
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i"OGLTexture.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.h
+c000000004D603752000000000000029C
+t1298151250
+s668
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+i"Pong.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+c000000004D756392000000000000186E
+t1299538834
+s6254
+i"OGLRenderer.h"
+i<CoreFoundation/CoreFoundation.h>
+i"OALCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c
+c000000004D41602A0000000000000C14
+t1296130090
+s3092
+i"OGLTexture.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.h
+c000000004D40D2080000000000000193
+t1296093704
+s403
+i"OGLCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.h
+c000000004D612EF90000000000000189
+t1298214649
+s393
+i<UIKit/UIKit.h>
+i"OGLRenderer.h"
+i"MenuView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+c000000004D612FFE0000000000000CA9
+t1298214910
+s3241
+i<OpenGLES/EAGLDrawable.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OpenAL
+c000000004D498871000000000000023B
+t1296664689
+s571
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+c000000004D613DFC0000000000001359
+t1298218492
+s4953
+i<stdlib.h>
+i<stdbool.h>
+i"Pong.h"
+i"OALCommon.h"
+i"mplayer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.h
+c000000004D756392000000000000046C
+t1299538834
+s1132
+i"OGLCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.h
+c000000004D612DEA0000000000000169
+t1298214378
+s361
+i<UIKit/UIKit.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+c000000004D7563920000000000000C37
+t1299538834
+s3127
+i"PongAppDelegate.h"
+i"MusicPlayer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c
+c000000004D37DF4E0000000000000A82
+t1295507278
+s2690
+i<stdio.h>
+i<math.h>
+i<stdlib.h>
+i"Pong_old.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.h
+c000000004D37DF3B00000000000002ED
+t1295507259
+s749
+i<OpenGLES/ES1/gl.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/mplayer.h
+c000000004D50950A00000000000000AD
+t1297126666
+s173
+
+N/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib
+c000000004D28828C00000000000020F9
+t1294500492
+s8441
+
+N/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch
+c000000004D28828C00000000000000B1
+t1294500492
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/ball.png
+c000000004D40CC3C0000000000000613
+t1296092220
+s1555
+
+N/Users/wsc/Development/OpenGL ES/Pong/beep.caf
+c000000004D4C83530000000000007768
+t1296859987
+s30568
+
+N/Users/wsc/Development/OpenGL ES/Pong/blue.png
+c000000004D40C933000000000000AFBB
+t1296091443
+s44987
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app
+t1299538777
+s578
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app.dSYM
+t1299538777
+s102
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist
+t1299538041
+s571
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/MainWindow.nib
+t1298155794
+s981
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/OpenAL
+t1297122244
+s571
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/PkgInfo
+t1299538041
+s8
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+t1299538777
+s59712
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/ball.png
+t1296092235
+s1555
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/beep.caf
+t1298155793
+s30568
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/blue.png
+t1296092235
+s44987
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/click1.caf
+t1298155793
+s7004
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/click2.caf
+t1298155793
+s10784
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/click3.caf
+t1298155793
+s7540
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/click4.caf
+t1298155793
+s11340
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/fabric_wall_texture.png
+t1296092235
+s699733
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/floor_tiles_texture.png
+t1298155793
+s279212
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/green.png
+t1298155793
+s5608
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/p1.png
+t1298155793
+s13240
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/p2.png
+t1298155793
+s9420
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/paddle_blue.png
+t1296090213
+s77288
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/paddle_yellow.png
+t1296090213
+s61911
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/wall_tiles_texture.png
+t1298155793
+s215558
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/wood_texture.png
+t1296092235
+s466276
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/zabumba.mp3
+t1298155794
+s5915344
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/AudioPlayer.o
+t1297124068
+s15340
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuView.o
+t1299538181
+s48200
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuViewController.o
+t1298157123
+s53496
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MusicPlayer.o
+t1299538042
+s18592
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OALCommon.o
+t1298155796
+s18824
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o
+t1298155795
+s5868
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o
+t1299538777
+s50836
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLTexture.o
+t1298155795
+s10248
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o
+t1299538180
+s52456
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList
+c000000004D612ED300000000000004AE
+t1298214611
+s1198
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o
+t1299538181
+s17892
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+t1299538212
+s53756
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong_old.o
+t1295513142
+s3220
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+t1299538042
+s6300
+
+N/Users/wsc/Development/OpenGL ES/Pong/click1.caf
+c000000004D4C82CA0000000000001B5C
+t1296859850
+s7004
+
+N/Users/wsc/Development/OpenGL ES/Pong/click2.caf
+c000000004D4C831E0000000000002A20
+t1296859934
+s10784
+
+N/Users/wsc/Development/OpenGL ES/Pong/click3.caf
+c000000004D4C82F30000000000001D74
+t1296859891
+s7540
+
+N/Users/wsc/Development/OpenGL ES/Pong/click4.caf
+c000000004D4C83300000000000002C4C
+t1296859952
+s11340
+
+N/Users/wsc/Development/OpenGL ES/Pong/fabric_wall_texture.png
+c000000004D40B1B500000000000AAD55
+t1296085429
+s699733
+
+N/Users/wsc/Development/OpenGL ES/Pong/floor_tiles_texture.png
+c000000004D40B1B500000000000442AC
+t1296085429
+s279212
+
+N/Users/wsc/Development/OpenGL ES/Pong/green.png
+c000000004D40CEF700000000000015E8
+t1296092919
+s5608
+
+N/Users/wsc/Development/OpenGL ES/Pong/main.m
+c000000004D28828C000000000000016A
+t1294500492
+s362
+i<UIKit/UIKit.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/p1.png
+c000000004D40CED100000000000033B8
+t1296092881
+s13240
+
+N/Users/wsc/Development/OpenGL ES/Pong/p2.png
+c000000004D40CEDB00000000000024CC
+t1296092891
+s9420
+
+N/Users/wsc/Development/OpenGL ES/Pong/paddle_blue.png
+c000000004D40C42C0000000000012DE8
+t1296090156
+s77288
+
+N/Users/wsc/Development/OpenGL ES/Pong/paddle_yellow.png
+c000000004D40C416000000000000F1D7
+t1296090134
+s61911
+
+N/Users/wsc/Development/OpenGL ES/Pong/wall_tiles_texture.png
+c000000004D40B1B50000000000034A06
+t1296085429
+s215558
+
+N/Users/wsc/Development/OpenGL ES/Pong/wood_texture.png
+c000000004D40B1B50000000000071D64
+t1296085429
+s466276
+
+N/Users/wsc/Development/OpenGL ES/Pong/zabumba.mp3
+c0000000043BFA4C800000000005A42D0
+t1136633032
+s5915344
+
+N/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch.gch
+t1299538042
+s15473872
+
+N/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch.gch
+t1298155794
+s2138480
+
+NPong-Info.plist
+c000000004D37F033000000000000036A
+t1295511603
+s874
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321231577#321231577#0(0"0(0#1#0"8618892672#0"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/AudioPlayer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816868.636368
+e318816868.807741
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/AudioPlayer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m318816868#318816868#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m8624697248#1887"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/AudioPlayer.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321230981.029620
+e321230981.124646
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m321230981#321230981#0(0"0(0#0#56"/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m8603675456#1881"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuView.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuViewController.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319849922.985336
+e319849923.235071
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuViewController.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.m319849922#319849923#0(0"0(0#0#66"/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.m8602694976#1901"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/MenuViewController.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MenuViewController.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MusicPlayer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321230842.587361
+e321230842.701332
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MusicPlayer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m321230842#321230842#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m8608668832#1887"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/MusicPlayer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/MusicPlayer.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OALCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" normal i386 c com.apple.compilers.gcc.4_2
+s319848595.931771
+e319848596.078873
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OALCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c319848595#319848596#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c8620501120#1829"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OALCommon.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal i386 c com.apple.compilers.gcc.4_2
+s319848595.665549
+e319848595.782323
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c319848595#319848595#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c8616875008#1829"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321231577.674965
+e321231577.809670
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m321231577#321231577#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m8618885536#1887"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLTexture.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" normal i386 c com.apple.compilers.gcc.4_2
+s319848595.803859
+e319848595.931667
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLTexture.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c319848595#319848595#0(0"0(0#0#58"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c8624960000#1831"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLTexture.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321230980.730182
+e321230980.878930
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m321230980#321230980#0(0"0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m8599207456#1879"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal i386 c com.apple.compilers.gcc.4_2
+s321230980.886461
+e321230981.080651
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c321230980#321230981#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c8606181728#1819"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321231011.983848
+e321231012.107495
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m321231011#321231012#0(0"0(0#0#63"/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m8608245632#1895"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321230842.344470
+e321230842.463113
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+x/Users/wsc/Development/OpenGL ES/Pong/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/wsc/Development/OpenGL ES/Pong/main.m321230842#321230842#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/main.m8611156928#1865"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/main.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib"
+s319848593.791191
+e319848594.516591
+r1
+xCompileXIB
+x/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319848593#319848594#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib8616778912#570"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/MainWindow.nib" "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/OpenAL Classes/OpenAL
+s318815044.082345
+e318815044.168093
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/OpenAL
+xClasses/OpenAL
+lSLF07#2@19"Copy Classes/OpenAL318815044#318815044#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/OpenAL8623966208#472"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/Classes/OpenAL" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/ball.png ball.png
+s317785035.431209
+e317785035.441950
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/ball.png
+xball.png
+lSLF07#2@13"Copy ball.png317785035#317785035#0(0"0(0#0#46"/Users/wsc/Development/OpenGL ES/Pong/ball.png8792168416#466"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/ball.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/beep.caf beep.caf
+s319848593.802799
+e319848593.905533
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/beep.caf
+xbeep.caf
+lSLF07#2@13"Copy beep.caf319848593#319848593#0(0"0(0#0#46"/Users/wsc/Development/OpenGL ES/Pong/beep.caf8615619456#466"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/beep.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/blue.png blue.png
+s317785035.430563
+e317785035.441825
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/blue.png
+xblue.png
+lSLF07#2@13"Copy blue.png317785035#317785035#0(0"0(0#0#46"/Users/wsc/Development/OpenGL ES/Pong/blue.png8794719616#466"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/blue.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/click1.caf click1.caf
+s319848593.804585
+e319848593.917719
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/click1.caf
+xclick1.caf
+lSLF07#2@15"Copy click1.caf319848593#319848593#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click1.caf8615495136#468"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click1.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/click2.caf click2.caf
+s319848593.806950
+e319848593.917517
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/click2.caf
+xclick2.caf
+lSLF07#2@15"Copy click2.caf319848593#319848593#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click2.caf8615153184#468"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click2.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/click3.caf click3.caf
+s319848593.807909
+e319848593.906894
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/click3.caf
+xclick3.caf
+lSLF07#2@15"Copy click3.caf319848593#319848593#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click3.caf8615000544#468"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click3.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/click4.caf click4.caf
+s319848593.866955
+e319848593.896367
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/click4.caf
+xclick4.caf
+lSLF07#2@15"Copy click4.caf319848593#319848593#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click4.caf8623961600#468"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click4.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/fabric_wall_texture.png fabric_wall_texture.png
+s317785035.425203
+e317785035.441540
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/fabric_wall_texture.png
+xfabric_wall_texture.png
+lSLF07#2@28"Copy fabric_wall_texture.png317785035#317785035#0(0"0(0#0#61"/Users/wsc/Development/OpenGL ES/Pong/fabric_wall_texture.png8800154464#481"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/fabric_wall_texture.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/floor_tiles_texture.png floor_tiles_texture.png
+s319848593.791953
+e319848594.090985
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/floor_tiles_texture.png
+xfloor_tiles_texture.png
+lSLF07#2@28"Copy floor_tiles_texture.png319848593#319848594#0(0"0(0#0#61"/Users/wsc/Development/OpenGL ES/Pong/floor_tiles_texture.png8616744064#481"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/floor_tiles_texture.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/green.png green.png
+s319848593.796548
+e319848593.866863
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/green.png
+xgreen.png
+lSLF07#2@14"Copy green.png319848593#319848593#0(0"0(0#0#47"/Users/wsc/Development/OpenGL ES/Pong/green.png8616519168#467"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/green.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/p1.png p1.png
+s319848593.797507
+e319848593.883109
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/p1.png
+xp1.png
+lSLF07#2@11"Copy p1.png319848593#319848593#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/p1.png8616367968#464"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/p1.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/p2.png p2.png
+s319848593.800778
+e319848593.867810
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/p2.png
+xp2.png
+lSLF07#2@11"Copy p2.png319848593#319848593#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/p2.png8615741088#464"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/p2.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/paddle_blue.png paddle_blue.png
+s317783013.864875
+e317783013.871670
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/paddle_blue.png
+xpaddle_blue.png
+lSLF07#2@20"Copy paddle_blue.png317783013#317783013#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/paddle_blue.png27303536605069420#473"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/paddle_blue.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/paddle_yellow.png paddle_yellow.png
+s317783013.865765
+e317783013.875683
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/paddle_yellow.png
+xpaddle_yellow.png
+lSLF07#2@22"Copy paddle_yellow.png317783013#317783013#0(0"0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/paddle_yellow.png8785544768#475"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/paddle_yellow.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/wall_tiles_texture.png wall_tiles_texture.png
+s319848593.793243
+e319848594.065729
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/wall_tiles_texture.png
+xwall_tiles_texture.png
+lSLF07#2@27"Copy wall_tiles_texture.png319848593#319848594#0(0"0(0#0#60"/Users/wsc/Development/OpenGL ES/Pong/wall_tiles_texture.png8616678432#480"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/wall_tiles_texture.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/wood_texture.png wood_texture.png
+s317785035.429913
+e317785035.448257
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/wood_texture.png
+xwood_texture.png
+lSLF07#2@21"Copy wood_texture.png317785035#317785035#0(0"0(0#0#54"/Users/wsc/Development/OpenGL ES/Pong/wood_texture.png8795370560#474"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/wood_texture.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/zabumba.mp3 zabumba.mp3
+s319848593.867876
+e319848594.331699
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/zabumba.mp3
+xzabumba.mp3
+lSLF07#2@16"Copy zabumba.mp3319848593#319848594#0(0"0(0#0#49"/Users/wsc/Development/OpenGL ES/Pong/zabumba.mp38622047104#469"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/zabumba.mp3" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal i386 c com.apple.compilers.gcc.4_2
+s317593443.681138
+e317593443.818585
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+odistcc[50311] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@83"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c317593443#317593443#0(91"distcc[50311] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c8614562688#1936"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLCommon.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317593914.009140
+e317593914.239412
+r0
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[50789] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m: In function 'setupTextureSupport':
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:195: error: 'imageDataArray' undeclared (first use in this function)
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:195: error: (Each undeclared identifier is reported only once
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:195: error: for each function it appears in.)
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:192: warning: unused variable 'texFiles'
+o{standard input}:753:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000005$pb"
+o{standard input}:753:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:747:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:747:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:737:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:737:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:719:non-relocatable subtraction expression, "L_ball$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:719:symbol: "L_ball$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:714:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:714:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:711:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:711:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:708:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:708:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:705:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:705:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:689:non-relocatable subtraction expression, "L_paddle2$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:689:symbol: "L_paddle2$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:684:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:684:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:681:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:681:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:678:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:678:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:675:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:675:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:661:non-relocatable subtraction expression, "L_paddle1$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:661:symbol: "L_paddle1$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:656:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:656:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:653:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:653:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:650:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:650:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:647:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:647:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:618:non-relocatable subtraction expression, "L_board$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:618:symbol: "L_board$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:611:non-relocatable subtraction expression, "L_texture$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:611:symbol: "L_texture$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:606:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:606:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:603:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:603:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:600:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:600:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:597:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:597:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:580:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:580:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:577:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:577:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:574:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"
+o{standard input}:574:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:571:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"
+o{standard input}:571:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:562:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:562:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:554:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:554:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:549:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:549:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:545:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000005$pb"
+o{standard input}:545:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:505:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:505:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:496:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:496:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:487:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:487:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:479:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:479:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:470:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:470:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:461:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:461:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:453:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:453:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:444:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:444:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:435:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:435:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:382:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:382:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:370:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:364:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:364:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:354:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:354:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:345:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:345:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:335:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:335:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:325:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:325:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:313:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:313:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:303:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000003$pb"
+o{standard input}:303:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:297:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:297:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:287:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:287:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:277:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:277:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:268:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:268:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:259:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:259:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:215:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000002$pb"
+o{standard input}:215:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:207:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:207:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:200:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:200:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:194:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:194:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:185:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:185:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:182:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:182:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:174:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:174:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:167:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:167:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:164:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:164:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:103:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:103:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:99:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:99:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:92:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:92:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:59:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:59:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:55:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:55:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol LC2
+o{standard input}:unknown:Undefined local symbol LC3
+o{standard input}:unknown:Undefined local symbol L_texture$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_board$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_paddle1$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_paddle2$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_ball$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+odistcc[50789] ERROR: compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m on localhost failed
+lSLF07#2@85"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m317593914#317593914#0(20455"distcc[50789] (dcc_build_somewhere) Warning: failed to distribute, running locally instead/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m: In function 'setupTextureSupport':/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:195: error: 'imageDataArray' undeclared (first use in this function)/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:195: error: (Each undeclared identifier is reported only once/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:195: error: for each function it appears in.)/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m:192: warning: unused variable 'texFiles'{standard input}:753:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000005$pb"{standard input}:753:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:747:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000005$pb"{standard input}:747:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:737:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000005$pb"{standard input}:737:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:719:non-relocatable subtraction expression, "L_ball$non_lazy_ptr" minus "L00000000005$pb"{standard input}:719:symbol: "L_ball$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:714:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:714:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:711:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:711:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:708:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:708:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:705:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:705:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:689:non-relocatable subtraction expression, "L_paddle2$non_lazy_ptr" minus "L00000000005$pb"{standard input}:689:symbol: "L_paddle2$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:684:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:684:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:681:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:681:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:678:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:678:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:675:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:675:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:661:non-relocatable subtraction expression, "L_paddle1$non_lazy_ptr" minus "L00000000005$pb"{standard input}:661:symbol: "L_paddle1$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:656:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:656:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:653:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:653:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:650:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:650:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:647:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:647:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:618:non-relocatable subtraction expression, "L_board$non_lazy_ptr" minus "L00000000005$pb"{standard input}:618:symbol: "L_board$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:611:non-relocatable subtraction expression, "L_texture$non_lazy_ptr" minus "L00000000005$pb"{standard input}:611:symbol: "L_texture$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:606:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:606:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:603:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:603:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:600:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:600:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:597:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:597:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:580:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:580:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:577:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:577:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:574:non-relocatable subtraction expression, "LC3" minus "L00000000005$pb"{standard input}:574:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:571:non-relocatable subtraction expression, "LC2" minus "L00000000005$pb"{standard input}:571:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:562:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000005$pb"{standard input}:562:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:554:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"{standard input}:554:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:549:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000005$pb"{standard input}:549:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:545:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000005$pb"{standard input}:545:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:505:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:505:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:496:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:496:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:487:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:487:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:479:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:479:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:470:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:470:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:461:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:461:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:453:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:453:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:444:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:444:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:435:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000004$pb"{standard input}:435:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:382:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:382:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" minus "L00000000003$pb"{standard input}:370:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:364:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" minus "L00000000003$pb"{standard input}:364:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:354:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:354:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:345:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:345:symbol: "L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:335:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" minus "L00000000003$pb"{standard input}:335:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:325:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" minus "L00000000003$pb"{standard input}:325:symbol: "L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:313:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:313:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:303:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000003$pb"{standard input}:303:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:297:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000003$pb"{standard input}:297:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:287:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:287:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:277:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:277:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:268:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:268:symbol: "L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:259:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" minus "L00000000003$pb"{standard input}:259:symbol: "L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:215:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000002$pb"{standard input}:215:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:207:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000002$pb"{standard input}:207:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:200:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:200:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:194:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000002$pb"{standard input}:194:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:185:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:185:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:182:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:182:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:174:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000002$pb"{standard input}:174:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:167:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:167:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:164:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:164:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:103:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000001$pb"{standard input}:103:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:99:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:99:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:92:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000001$pb"{standard input}:92:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:59:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:59:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:55:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:55:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.context$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.defaultFramebuffer$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.colorRenderbuffer$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.backingWidth$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.backingHeight$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_OGLRenderer.depthRenderbuffer$non_lazy_ptr{standard input}:unknown:Undefined local symbol LC2{standard input}:unknown:Undefined local symbol LC3{standard input}:unknown:Undefined local symbol L_texture$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_board$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_paddle1$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_paddle2$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_ball$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9distcc[50789] ERROR: compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m on localhost failed2(4@56"'imageDataArray' undeclared (first use in this function)317593914#187#129#0(6@59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m317593909#195#0#195#0#43"'*' undeclared (first use in this function)0(22@26"Unused variable 'texFiles'317593914#544#101#0(6@59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m317593909#192#0#192#0#19"unused variable '*'0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m8604389792#1994"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLRenderer.o"1#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317593443.353752
+e317593443.681038
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[50295] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m: In function '-[OGLView drawView:]':
+o/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m:68: warning: unused variable 'fps'
+lSLF07#2@81"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m317593443#317593443#0(275"distcc[50295] (dcc_build_somewhere) Warning: failed to distribute, running locally instead/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m: In function '-[OGLView drawView:]':/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m:68: warning: unused variable 'fps'1(22@21"Unused variable 'fps'317593443#184#91#0(6@55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m317592648#68#0#68#0#19"unused variable '*'0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m8593801536#1986"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/OGLView.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal i386 c com.apple.compilers.gcc.4_2
+s317593443.818692
+e317593443.945729
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+odistcc[50318] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@78"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c317593443#317593443#0(91"distcc[50318] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c8615054208#1926"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317593443.352611
+e317593443.667090
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[50294] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@89"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m317593443#317593443#0(91"distcc[50294] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#63"/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m8612907488#2002"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong_old.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c" normal i386 c com.apple.compilers.gcc.4_2
+s317205942.145408
+e317205942.231047
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong_old.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c317205942#317205942#0(0"0(0#0#56"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c8601828192#1934"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong_old.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317590856.277018
+e317590856.536376
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+x/Users/wsc/Development/OpenGL ES/Pong/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[48267] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@70"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/main.m317590856#317590856#0(91"distcc[48267] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/main.m8614122336#1972"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/main.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o"0#
+
+CGenerateDSYMFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app.dSYM" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong"
+s321231577.845535
+e321231577.867224
+r1
+xGenerateDSYMFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app.dSYM
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Pong.app.dSYM build/Debug-iphonesimulator/Pong.app/Pong321231577#321231577#0(0"0(0#0#79"/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong8619399744#377"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app.dSYM"0#
+
+CLd "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong" normal i386
+s321231577.809757
+e321231577.845426
+r1
+xLd
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+xnormal
+xi386
+lSLF07#2@84"Link /Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong321231577#321231577#0(0"0(0#0#0"8619649728#998"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" -filelist "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -framework AVFoundation -o "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Pong"0#
+
+CProcessInfoPlistFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist" Pong-Info.plist
+s321230841.447163
+e321230841.463404
+r1
+xProcessInfoPlistFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist
+xPong-Info.plist
+lSLF07#2@23"Process Pong-Info.plist321230841#321230841#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong-Info.plist7454972945256899584#473"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pong-Info.plist -genpkginfo "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist"0#
+
+CProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321230841.464150
+e321230842.344368
+r1
+xProcessPCH
+x/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch321230841#321230842#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch8606433504#1759"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -c "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -o /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-anujjjvofxdejwbfvwlzcywtmteq/Pong_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s319848594.518580
+e319848594.593930
+r1
+xProcessPCH
+x/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch319848594#319848594#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch8621929536#1705"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources" -c "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -o /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-cbpgffuxmtftyehkvrutfbexjsyi/Pong_Prefix.pch.gch0#
+
+CTouch "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"
+s321231577.867314
+e321231577.869946
+r1
+xTouch
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app
+lSLF07#2@80"Touch /Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app321231577#321231577#0(0"0(0#0#0"8619169024#277"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphonesimulator/Pong.app"0#
+

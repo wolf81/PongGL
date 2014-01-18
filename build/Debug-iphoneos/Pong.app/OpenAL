@@ -1,0 +1,29 @@
+### OpenAL ###
+
+1. ENTITIES USED BY OPENAL
+
+Listener
+The person listening to the audio.
+
+Source
+The audiosource, e.g. speaker.
+
+Buffer
+The sound that's being played.
+
+Device
+The actual hardware that will be playing the sound, most likely analogous to the iPhone.
+
+Context
+The current session that all sounds will be played in.
+
+
+2. BASICS TO PLAYING SOUNDS
+
+The following steps are required to make the bare minimum work:
+ 1.  get the device.
+ 2.  create context with device.
+ 3.  put some data into the buffer.
+ 4.  attacks buffer to the source.
+ 5.  play the source.
+ 

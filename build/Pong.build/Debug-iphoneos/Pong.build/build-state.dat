@@ -1,0 +1,1375 @@
+TPong
+v7
+r0
+t318732956.005495
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Pong.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist" Pong-Info.plist
+cCompileXIB "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib"
+cCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/floor_tiles_texture.png" floor_tiles_texture.png
+cCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/wall_tiles_texture.png" wall_tiles_texture.png
+cCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/green.png" green.png
+cCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p1.png" p1.png
+cCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p2.png" p2.png
+cCpResource build/Debug-iphoneos/Pong.app/OpenAL Classes/OpenAL
+cCpResource build/Debug-iphoneos/Pong.app/beep.caf beep.caf
+cCpResource build/Debug-iphoneos/Pong.app/click1.caf click1.caf
+cCpResource build/Debug-iphoneos/Pong.app/click2.caf click2.caf
+cCpResource build/Debug-iphoneos/Pong.app/click3.caf click3.caf
+cCpResource build/Debug-iphoneos/Pong.app/click4.caf click4.caf
+cCpResource build/Debug-iphoneos/Pong.app/zabumba.mp3 zabumba.mp3
+cProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLTexture.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OALCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" normal armv6 c com.apple.compilers.gcc.4_2
+cLd "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong" normal armv6
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLTexture.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OALCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" normal armv7 c com.apple.compilers.gcc.4_2
+cLd "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong" normal armv7
+cCreateUniversalBinary "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong"
+cProcessProductPackaging "/Users/wsc/Library/MobileDevice/Provisioning Profiles/64C32FEF-419C-4A07-853B-A6ECB33FD206.mobileprovision" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/embedded.mobileprovision"
+cTouch "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent"
+cCodeSign "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC10D700000000000000AB3
+t1287720304
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC10DCA00000000000004FE
+t1287720394
+s1278
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC10F3300000000000064FD
+t1287720755
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC10F330000000000001F45
+t1287720755
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/oalStaticBufferExtension.h
+c000000004CC10F330000000000000945
+t1287720755
+s2373
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC10F3800000000000459B0
+t1287720760
+s285104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdbool.h
+c000000004C5A56870000000000000644
+t1280988807
+s1604
+
+N/Users/wsc/Development/OpenGL ES/Pong/06 Zabumba No Mar (United Grooves Collective mix).mp3
+c0000000043BFA4C800000000005A42D0
+t1136633032
+s5915344
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.h
+c000000004D4F258100000000000000DD
+t1297032577
+s221
+i<Foundation/Foundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m
+c000000004D4F258100000000000000C8
+t1297032577
+s200
+i"AudioPlayer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.h
+c000000004D2D66AB000000000000014E
+t1294821035
+s334
+i<Foundation/Foundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.m
+c000000004D2D669400000000000000D1
+t1294821012
+s209
+i"Ball.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.h
+c000000004D2D6E9000000000000001ED
+t1294823056
+s493
+i<Foundation/Foundation.h>
+i"Paddle.h"
+i"Ball.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.m
+c000000004D2DE4DC00000000000002F8
+t1294853340
+s760
+i"Board.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c
+c000000004D4F431900000000000016FE
+t1297040153
+s5886
+i"OALCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.h
+c000000004D4F42FB00000000000003C9
+t1297040123
+s969
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+c000000004D4AD85F0000000000000453
+t1296750687
+s1107
+i"OGLCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.h
+c000000004D49ADD90000000000000332
+t1296674265
+s818
+i<CoreFoundation/CoreFoundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<OpenGLES/ES1/gl.h>
+i<stdbool.h>
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i"OGLTexture.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.h
+c000000004D341BC900000000000002B0
+t1295260617
+s688
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+i"Pong.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+c000000004D4EE66100000000000019DF
+t1297016417
+s6623
+i"OGLRenderer.h"
+i<CoreFoundation/CoreFoundation.h>
+i"OALCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c
+c000000004D41602A0000000000000C14
+t1296130090
+s3092
+i"OGLTexture.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.h
+c000000004D40D2080000000000000193
+t1296093704
+s403
+i"OGLCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.h
+c000000004D341BC90000000000000156
+t1295260617
+s342
+i<UIKit/UIKit.h>
+i"OGLRenderer.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+c000000004D4F368A0000000000000BF4
+t1297036938
+s3060
+i<OpenGLES/EAGLDrawable.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/OpenAL
+c000000004D498871000000000000023B
+t1296664689
+s571
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.h
+c000000004D2DE1750000000000000227
+t1294852469
+s551
+i<Foundation/Foundation.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.m
+c000000004D2DE2D00000000000000327
+t1294852816
+s807
+i"Paddle.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+c000000004D4EE5E7000000000000129E
+t1297016295
+s4766
+i<stdlib.h>
+i<stdbool.h>
+i"Pong.h"
+i"OALCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.h
+c000000004D49894D0000000000000424
+t1296664909
+s1060
+i"OGLCommon.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.h
+c000000004D28828C000000000000016A
+t1294500492
+s362
+i<UIKit/UIKit.h>
+i"OGLView.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+c000000004D2D6CD80000000000000BD1
+t1294822616
+s3025
+i"PongAppDelegate.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c
+c000000004D37DF4E0000000000000A82
+t1295507278
+s2690
+i<stdio.h>
+i<math.h>
+i<stdlib.h>
+i"Pong_old.h"
+
+N/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.h
+c000000004D37DF3B00000000000002ED
+t1295507259
+s749
+i<OpenGLES/ES1/gl.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib
+c000000004D28828C00000000000020F9
+t1294500492
+s8441
+
+N/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch
+c000000004D28828C00000000000000B1
+t1294500492
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/beep.caf
+c000000004D4C83530000000000007768
+t1296859987
+s30568
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app
+t1297040155
+s748
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM
+t1297040154
+s102
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/06 Zabumba No Mar (United Grooves Collective mix).mp3
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist
+t1295512285
+s767
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/MainWindow.nib
+t1295512285
+s981
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/OpenAL
+t1297032294
+s571
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/PkgInfo
+t1295512285
+s8
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong
+t1297040154
+s109440
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/ResourceRules.plist
+t1295512285
+s485
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/beep.caf
+t1297032294
+s30568
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/click1.caf
+t1297032294
+s7004
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/click2.caf
+t1297032294
+s10784
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/click3.caf
+t1297032294
+s7540
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/click4.caf
+t1297032294
+s11340
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/embedded.mobileprovision
+t1295512288
+s7249
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/floor_tiles_texture.png
+t1297032293
+s340770
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/green.png
+t1297032294
+s5447
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p1.png
+t1297032294
+s13292
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p2.png
+t1297032294
+s15951
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/wall_tiles_texture.png
+t1297032294
+s260079
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/zabumba.mp3
+t1297032885
+s5915344
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/AudioPlayer.o
+t1297032885
+s5232
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Ball.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Board.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OALCommon.o
+t1297040154
+s19812
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o
+t1297032296
+s7032
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o
+t1297040123
+s50792
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLTexture.o
+t1297032296
+s10848
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o
+t1297036981
+s51252
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Paddle.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong
+t1297040154
+s47360
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.LinkFileList
+c000000004D4F42D7000000000000038D
+t1297040087
+s909
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o
+t1297040123
+s16848
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o
+t1297032295
+s52980
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong_old.o
+t1295512286
+s3748
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o
+t1297032295
+s6444
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/AudioPlayer.o
+t1297032885
+s5232
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Ball.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Board.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OALCommon.o
+t1297040154
+s19536
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o
+t1297032297
+s5848
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o
+t1297040124
+s50264
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLTexture.o
+t1297032297
+s10484
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o
+t1297036981
+s50508
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Paddle.o
+t2
+s0
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong
+t1297040154
+s42008
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.LinkFileList
+c000000004D4F42D7000000000000038D
+t1297040087
+s909
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o
+t1297040124
+s14160
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o
+t1297032297
+s52920
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong_old.o
+t1295512288
+s3272
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o
+t1297032296
+s6428
+
+N/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent
+t1295512288
+s402
+
+N/Users/wsc/Development/OpenGL ES/Pong/click1.caf
+c000000004D4C82CA0000000000001B5C
+t1296859850
+s7004
+
+N/Users/wsc/Development/OpenGL ES/Pong/click2.caf
+c000000004D4C831E0000000000002A20
+t1296859934
+s10784
+
+N/Users/wsc/Development/OpenGL ES/Pong/click3.caf
+c000000004D4C82F30000000000001D74
+t1296859891
+s7540
+
+N/Users/wsc/Development/OpenGL ES/Pong/click4.caf
+c000000004D4C83300000000000002C4C
+t1296859952
+s11340
+
+N/Users/wsc/Development/OpenGL ES/Pong/floor_tiles_texture.png
+c000000004D40B1B500000000000442AC
+t1296085429
+s279212
+
+N/Users/wsc/Development/OpenGL ES/Pong/green.png
+c000000004D40CEF700000000000015E8
+t1296092919
+s5608
+
+N/Users/wsc/Development/OpenGL ES/Pong/main.m
+c000000004D28828C000000000000016A
+t1294500492
+s362
+i<UIKit/UIKit.h>
+
+N/Users/wsc/Development/OpenGL ES/Pong/p1.png
+c000000004D40CED100000000000033B8
+t1296092881
+s13240
+
+N/Users/wsc/Development/OpenGL ES/Pong/p2.png
+c000000004D40CEDB00000000000024CC
+t1296092891
+s9420
+
+N/Users/wsc/Development/OpenGL ES/Pong/wall_tiles_texture.png
+c000000004D40B1B50000000000034A06
+t1296085429
+s215558
+
+N/Users/wsc/Development/OpenGL ES/Pong/zabumba.mp3
+c0000000043BFA4C800000000005A42D0
+t1136633032
+s5915344
+
+N/Users/wsc/Library/MobileDevice/Provisioning Profiles/64C32FEF-419C-4A07-853B-A6ECB33FD206.mobileprovision
+c000000004D37F2AD0000000000001C51
+t1295512237
+s7249
+
+N/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch.gch
+t1297032295
+s10467032
+
+N/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch.gch
+t1297032295
+s1716452
+
+N/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch.gch
+t1297032295
+s10000088
+
+N/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch.gch
+t1297032294
+s1261796
+
+NPong-Info.plist
+c000000004D37F033000000000000036A
+t1295511603
+s874
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318732955#318732956#0(0"0(0#1#0"8702208320#0"0#
+
+CCodeSign "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"
+s318732954.943836
+e318732955.209360
+r1
+xCodeSign
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Pong.app318732954#318732955#0(0"0(0#0#67"/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app8701680832#642"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Wolfgang Schreurs (E7YN7U762K)" "--resource-rules=/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/ResourceRules.plist" --entitlements "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/AudioPlayer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318725685.650561
+e318725685.713973
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/AudioPlayer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m318725685#318725685#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m8663062816#1697"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/AudioPlayer.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OALCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" normal armv6 c com.apple.compilers.gcc.4_2
+s318732954.656113
+e318732954.826378
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OALCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c318732954#318732954#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c8632609248#1683"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OALCommon.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal armv6 c com.apple.compilers.gcc.4_2
+s318725095.801227
+e318725096.739733
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c318725095#318725096#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c8599207200#1683"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318732923.600461
+e318732923.814430
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m318732923#318732923#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m8702672512#1697"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLTexture.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" normal armv6 c com.apple.compilers.gcc.4_2
+s318725096.739849
+e318725096.855449
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLTexture.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c318725096#318725096#0(0"0(0#0#58"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c8657759008#1685"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLTexture.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318729781.638279
+e318729781.779159
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m318729781#318729781#0(0"0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m8642980320#1689"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal armv6 c com.apple.compilers.gcc.4_2
+s318732923.602614
+e318732923.901611
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c318732923#318732923#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c8701711488#1673"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318725095.632733
+e318725095.787007
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m318725095#318725095#0(0"0(0#0#63"/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m8632169600#1705"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318725095.631375
+e318725095.696398
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o
+x/Users/wsc/Development/OpenGL ES/Pong/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/wsc/Development/OpenGL ES/Pong/main.m318725095#318725095#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/main.m8655828448#1675"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/main.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/AudioPlayer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318725685.652238
+e318725685.712785
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/AudioPlayer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m318725685#318725685#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m8655750080#1697"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/AudioPlayer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/AudioPlayer.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OALCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" normal armv7 c com.apple.compilers.gcc.4_2
+s318732954.702719
+e318732954.870063
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OALCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c318732954#318732954#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c8703238272#1683"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OALCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OALCommon.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal armv7 c com.apple.compilers.gcc.4_2
+s318725097.298579
+e318725097.426586
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c318725097#318725097#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c8619363360#1683"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318732923.901988
+e318732924.069163
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m318732923#318732924#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m8702717792#1697"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLTexture.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" normal armv7 c com.apple.compilers.gcc.4_2
+s318725097.432642
+e318725097.587650
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLTexture.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c318725097#318725097#0(0"0(0#0#58"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c8630768704#1685"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLTexture.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLTexture.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318729781.779531
+e318729781.912597
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m318729781#318729781#0(0"0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m8670043072#1689"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal armv7 c com.apple.compilers.gcc.4_2
+s318732923.994122
+e318732924.222708
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c318732923#318732924#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c8695101696#1673"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318725096.970215
+e318725097.298478
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m318725096#318725097#0(0"0(0#0#63"/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m8621229856#1705"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o"0#
+
+CCompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318725096.913172
+e318725096.970110
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o
+x/Users/wsc/Development/OpenGL ES/Pong/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/wsc/Development/OpenGL ES/Pong/main.m318725096#318725096#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/main.m8625189792#1675"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch -c "/Users/wsc/Development/OpenGL ES/Pong/main.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib"
+s317205085.327492
+e317205085.740102
+r1
+xCompileXIB
+x/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317205085#317205085#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib8610612416#542"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/MainWindow.nib" "/Users/wsc/Development/OpenGL ES/Pong/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/floor_tiles_texture.png" floor_tiles_texture.png
+s318725090.386400
+e318725094.124024
+r1
+xCopyPNGFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/floor_tiles_texture.png
+xfloor_tiles_texture.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/Pong.app/floor_tiles_texture.png floor_tiles_texture.png318725090#318725094#0(0"0(0#0#61"/Users/wsc/Development/OpenGL ES/Pong/floor_tiles_texture.png8657242656#586"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/wsc/Development/OpenGL ES/Pong/floor_tiles_texture.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/floor_tiles_texture.png"0#
+
+CCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/green.png" green.png
+s318725094.124161
+e318725094.158154
+r1
+xCopyPNGFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/green.png
+xgreen.png
+lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/Pong.app/green.png green.png318725094#318725094#0(0"0(0#0#47"/Users/wsc/Development/OpenGL ES/Pong/green.png8662411744#558"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/wsc/Development/OpenGL ES/Pong/green.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/green.png"0#
+
+CCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p1.png" p1.png
+s318725094.158250
+e318725094.198563
+r1
+xCopyPNGFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p1.png
+xp1.png
+lSLF07#2@55"CopyPNGFile build/Debug-iphoneos/Pong.app/p1.png p1.png318725094#318725094#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/p1.png8621440608#552"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/wsc/Development/OpenGL ES/Pong/p1.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p1.png"0#
+
+CCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p2.png" p2.png
+s318725094.198657
+e318725094.234617
+r1
+xCopyPNGFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p2.png
+xp2.png
+lSLF07#2@55"CopyPNGFile build/Debug-iphoneos/Pong.app/p2.png p2.png318725094#318725094#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/p2.png8634591424#552"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/wsc/Development/OpenGL ES/Pong/p2.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/p2.png"0#
+
+CCopyPNGFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/wall_tiles_texture.png" wall_tiles_texture.png
+s318725090.391911
+e318725094.343889
+r1
+xCopyPNGFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/wall_tiles_texture.png
+xwall_tiles_texture.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/Pong.app/wall_tiles_texture.png wall_tiles_texture.png318725090#318725094#0(0"0(0#0#60"/Users/wsc/Development/OpenGL ES/Pong/wall_tiles_texture.png8604171072#584"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/wsc/Development/OpenGL ES/Pong/wall_tiles_texture.png" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/wall_tiles_texture.png"0#
+
+CCpResource "build/Debug-iphoneos/Pong.app/06 Zabumba No Mar (United Grooves Collective mix).mp3" "06 Zabumba No Mar (United Grooves Collective mix).mp3"
+r0
+
+CCpResource build/Debug-iphoneos/Pong.app/OpenAL Classes/OpenAL
+s318725094.234704
+e318725094.269074
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/OpenAL
+xClasses/OpenAL
+lSLF07#2@19"Copy Classes/OpenAL318725094#318725094#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/OpenAL8632071328#458"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/Classes/OpenAL" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317205085.266026
+e317205085.327406
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317205085#317205085#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8531300039613640704#493"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/beep.caf beep.caf
+s318725094.235689
+e318725094.269183
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/beep.caf
+xbeep.caf
+lSLF07#2@13"Copy beep.caf318725094#318725094#0(0"0(0#0#46"/Users/wsc/Development/OpenGL ES/Pong/beep.caf8626158848#452"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/beep.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/click1.caf click1.caf
+s318725094.240957
+e318725094.269281
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/click1.caf
+xclick1.caf
+lSLF07#2@15"Copy click1.caf318725094#318725094#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click1.caf8624375904#454"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click1.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/click2.caf click2.caf
+s318725094.245970
+e318725094.269380
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/click2.caf
+xclick2.caf
+lSLF07#2@15"Copy click2.caf318725094#318725094#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click2.caf8622045024#454"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click2.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/click3.caf click3.caf
+s318725094.263277
+e318725094.274310
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/click3.caf
+xclick3.caf
+lSLF07#2@15"Copy click3.caf318725094#318725094#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click3.caf8620949760#454"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click3.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/click4.caf click4.caf
+s318725094.265147
+e318725094.275302
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/click4.caf
+xclick4.caf
+lSLF07#2@15"Copy click4.caf318725094#318725094#0(0"0(0#0#48"/Users/wsc/Development/OpenGL ES/Pong/click4.caf8614774720#454"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/click4.caf" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCpResource build/Debug-iphoneos/Pong.app/zabumba.mp3 zabumba.mp3
+s318725685.612844
+e318725685.649479
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pong.app/zabumba.mp3
+xzabumba.mp3
+lSLF07#2@16"Copy zabumba.mp3318725685#318725685#0(0"0(0#0#49"/Users/wsc/Development/OpenGL ES/Pong/zabumba.mp38632311872#455"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/wsc/Development/OpenGL ES/Pong/zabumba.mp3" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
+CCreateUniversalBinary "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong" normal "armv6 armv7"
+s318732954.903290
+e318732954.908030
+r1
+xCreateUniversalBinary
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Debug-iphoneos/Pong.app/Pong normal "armv6 armv7"318732954#318732954#0(0"0(0#0#49"/Users/wsc/Development/OpenGL ES/Pong/armv6 armv78704595328#498"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong" "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong" -output "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Ball.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Board.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal armv6 c com.apple.compilers.gcc.4_2
+s317205086.896341
+e317205086.986645
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c317205086#317205086#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c8601573152#1798"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLCommon.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317205502.530859
+e317205502.913666
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m317205502#317205502#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m8617468736#1812"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLRenderer.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317205502.094925
+e317205502.530762
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m317205502#317205502#0(0"0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m8624180512#1804"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/OGLView.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Paddle.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal armv6 c com.apple.compilers.gcc.4_2
+s317205883.601959
+e317205883.720407
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c317205883#317205883#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c8624263008#1788"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317205502.093748
+e317205502.534192
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m317205502#317205502#0(0"0(0#0#63"/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m8623592800#1820"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/PongAppDelegate.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong_old.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c" normal armv6 c com.apple.compilers.gcc.4_2
+s317205086.823967
+e317205086.969807
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong_old.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c317205086#317205086#0(0"0(0#0#56"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c8605953152#1796"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong_old.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317205085.740209
+e317205086.463569
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o
+x/Users/wsc/Development/OpenGL ES/Pong/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/main.m317205085#317205086#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/main.m8612813760#1790"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/main.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/main.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Ball.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Ball.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Board.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Board.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" normal armv7 c com.apple.compilers.gcc.4_2
+s317205088.116053
+e317205088.195876
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c317205088#317205088#0(0"0(0#0#57"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c8612638944#1798"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLCommon.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLCommon.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317205502.986416
+e317205503.318617
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m317205502#317205503#0(0"0(0#0#59"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m8622413184#1812"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLRenderer.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLRenderer.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317205502.949659
+e317205503.369244
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m317205502#317205503#0(0"0(0#0#55"/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m8622846176#1804"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/OGLView.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/OGLView.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Paddle.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Paddle.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" normal armv7 c com.apple.compilers.gcc.4_2
+s317205883.608282
+e317205883.712081
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c317205883#317205883#0(0"0(0#0#52"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c8623270496#1788"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317205502.627909
+e317205502.986318
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m317205502#317205502#0(0"0(0#0#63"/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m8615541472#1820"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/PongAppDelegate.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/PongAppDelegate.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong_old.o "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c" normal armv7 c com.apple.compilers.gcc.4_2
+s317205088.030794
+e317205088.115960
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong_old.o
+x/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c317205088#317205088#0(0"0(0#0#56"/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c8609122496#1796"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/Classes/Pong_old.c" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong_old.o"0#
+
+CDistributed-CompileC build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o "/Users/wsc/Development/OpenGL ES/Pong/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317205086.986748
+e317205087.674733
+r1
+xDistributed-CompileC
+xbuild/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o
+x/Users/wsc/Development/OpenGL ES/Pong/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Distribute compilation of /Users/wsc/Development/OpenGL ES/Pong/main.m317205086#317205087#0(0"0(0#0#44"/Users/wsc/Development/OpenGL ES/Pong/main.m8611994496#1790"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.6 (10J567, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -include "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -c "/Users/wsc/Development/OpenGL ES/Pong/main.m" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/main.o"0#
+
+CGenerateDSYMFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong"
+s318732954.908121
+e318732954.940862
+r1
+xGenerateDSYMFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Pong.app.dSYM build/Debug-iphoneos/Pong.app/Pong318732954#318732954#0(0"0(0#0#72"/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong8704011456#356"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Pong" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app.dSYM"0#
+
+CLd "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong" normal armv6
+s318732954.826471
+e318732954.867487
+r1
+xLd
+x/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong
+xnormal
+xarmv6
+lSLF07#2@111"Link /Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong318732954#318732954#0(0"0(0#0#0"8704805888#930"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" -filelist "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv6/Pong"0#
+
+CLd "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong" normal armv7
+s318732954.870149
+e318732954.903200
+r1
+xLd
+x/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong
+xnormal
+xarmv7
+lSLF07#2@111"Link /Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong318732954#318732954#0(0"0(0#0#0"8634689120#930"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" -filelist "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Objects-normal/armv7/Pong"0#
+
+CProcessInfoPlistFile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist" Pong-Info.plist
+s317205085.299227
+e317205085.310795
+r1
+xProcessInfoPlistFile
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist
+xPong-Info.plist
+lSLF07#2@23"Process Pong-Info.plist317205085#317205085#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong-Info.plist8612113600#554"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pong-Info.plist -genpkginfo "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/ResourceRules.plist" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/Info.plist"0#
+
+CProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318725094.464040
+e318725095.631152
+r1
+xProcessPCH
+x/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch318725094#318725095#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch8626767712#1575"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -c "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -o /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-abdwihehucchufdzgfcjghbraekz/Pong_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s318725095.396471
+e318725095.599297
+r1
+xProcessPCH
+x/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch318725095#318725095#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch8621885440#1565"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv7" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -c "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -o /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-bkvoxixsvcnykbdcowzyzjkpdfmd/Pong_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318725094.344012
+e318725095.396348
+r1
+xProcessPCH
+x/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch318725094#318725095#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch8662119520#1575"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -c "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -o /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dyriixuenpmpfmhifktpwttexasi/Pong_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch.gch Pong_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s318725094.344980
+e318725094.463931
+r1
+xProcessPCH
+x/var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch318725094#318725094#0(0"0(0#0#53"/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch8657192480#1565"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-generated-files.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-own-target-headers.hmap" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-all-target-headers.hmap" -iquote "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong-project-headers.hmap" "-F/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/include" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources/armv6" "-I/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/DerivedSources" -c "/Users/wsc/Development/OpenGL ES/Pong/Pong_Prefix.pch" -o /var/folders/R2/R2fo7racGsufFGHTVjeeLE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-fwmlfbxrkotfzgflxwfeipolvirx/Pong_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/wsc/Library/MobileDevice/Provisioning Profiles/64C32FEF-419C-4A07-853B-A6ECB33FD206.mobileprovision" "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/embedded.mobileprovision"
+s317205088.673384
+e317205088.674782
+r1
+xProcessProductPackaging
+x/Users/wsc/Library/MobileDevice/Provisioning Profiles/64C32FEF-419C-4A07-853B-A6ECB33FD206.mobileprovision
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/embedded.mobileprovision
+lSLF07#2@187"ProcessProductPackaging "/Users/wsc/Library/MobileDevice/Provisioning Profiles/64C32FEF-419C-4A07-853B-A6ECB33FD206.mobileprovision" build/Debug-iphoneos/Pong.app/embedded.mobileprovision317205088#317205088#0(0"0(0#0#92"/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/embedded.mobileprovision8607692256#420"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/wsc/Library/MobileDevice/Provisioning Profiles/64C32FEF-419C-4A07-853B-A6ECB33FD206.mobileprovision" -o "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent"
+s317205088.678219
+e317205088.695466
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent317205088#317205088#0(0"0(0#0#91"/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent8607088224#425"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/wsc/Development/OpenGL ES/Pong/build/Pong.build/Debug-iphoneos/Pong.build/Pong.xcent"0#
+
+CTouch "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"
+s318732954.941056
+e318732954.943663
+r1
+xTouch
+x/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app
+lSLF07#2@73"Touch /Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app318732954#318732954#0(0"0(0#0#0"8703834560#263"    cd "/Users/wsc/Development/OpenGL ES/Pong"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/wsc/Development/OpenGL ES/Pong/build/Debug-iphoneos/Pong.app"0#
+
